@@ -1,0 +1,153 @@
+
+body{
+    background: linear-gradient(#161358, #403d7ed8);
+    
+}
+/* ************************************header******************************* */
+header{
+    background: #05062d;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* comando favorito do luis */
+    box-shadow: 0 2px 5px #000;
+    border-radius: 15px;
+    
+}
+.logo img{
+    height: 70px;
+}
+a:link{
+    text-decoration: none;
+}
+/* ****************************************cards*************************************** */
+.card {
+  width: 190px;
+  height: 254px;
+  background: #9741fc33;
+  border-radius: 15px;
+  box-shadow: 1px 5px 60px 0px #100a886b;
+ }
+ 
+ .card .card-border-top {
+  width: 60%;
+  height: 3%;
+  background: #6b64f3;
+  margin: auto;
+  border-radius: 0px 0px 15px 15px;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+ }
+ 
+ .card span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 16px;
+ }
+ 
+ .card .job {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 12px;
+ }
+ 
+ .card .img1 {
+  width: 80px;
+  height: 60px;
+  background: #1d1f1e;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 25px;
+ }
+ .card .img2 {
+  width: 80px;
+  height: 60px;
+  background: #0e76a8;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 25px;
+ }
+ .card .img3 {
+  width: 80px;
+  height: 60px;
+  background: #25D366;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 25px;
+ }
+ 
+ .card button {
+  padding: 8px 25px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  background: #6b64f3;
+  color: white;
+  font-weight: 600;
+ }
+ 
+ .card button:hover {
+  background: #534bf3;
+ }
+ /* **********************************************instagram***************************************** */
+button {
+    background-color: #fff;
+    border: 1px solid #bc2a8d;
+    padding: 5px;
+    position: relative;
+    width: 7.2em;
+    height: 2em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+  }
+  
+  button p {
+    position: absolute;
+    top: 0.4em;
+    left: 1.2em;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+    color: #bc2a8d;
+  }
+  
+  button svg {
+    position: absolute;
+    top: 0.45em;
+    right: 0.5em;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    height: 1em;
+    fill: #fff
+  }
+  
+  button:hover p {
+    left: 0.6em;
+    color: #fff
+  }
+  
+  button:hover svg {
+    opacity: 1;
+  }
+  
+  button:hover {
+    background-color: #bc2a8d;
+  }
+  /* ****************************************feito por thiago************************ */
+  .txt{
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+  }
